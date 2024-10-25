@@ -29,7 +29,7 @@ const chartConfig = {
         plugins: {
             title: {
                 display: true,
-                text: 'Distribution of Talents',
+                text: 'Distribution of Fruits',
                 font: {
                     size: 24, 
                     weight: 'bold'
