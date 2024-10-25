@@ -4,9 +4,9 @@ chartCanvas.width = 800;
 chartCanvas.height = 400;
 document.body.appendChild(chartCanvas);
 
-const talentCategories = ['Melon', 'Apple', 'Mango', '', 'Strawberry'];
+const fruitCategories = ['Melon', 'Apple', 'Mango', '', 'Strawberry'];
 const FruitData = {
-    labels: talentCategories,
+    labels: fruitCategories,
     datasets: [{
         label: 'Fruit Distribution',
         data: [25, 15, 30, 20, 10], 
