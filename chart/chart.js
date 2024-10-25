@@ -5,7 +5,7 @@ chartCanvas.height = 400;
 document.body.appendChild(chartCanvas);
 
 const talentCategories = ['Melon', 'Apple', 'Mango', '', 'Strawberry'];
-const talentData = {
+const FruitData = {
     labels: talentCategories,
     datasets: [{
         label: 'Fruit Distribution',
@@ -23,7 +23,7 @@ const talentData = {
 
 const chartConfig = {
     type: 'pie',
-    data: talentData,
+    data: FruitDataData,
     options: {
         responsive: true,
         plugins: {
