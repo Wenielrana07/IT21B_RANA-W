@@ -23,7 +23,7 @@ const FruitData = {
 
 const chartConfig = {
     type: 'pie',
-    data: FruitDataData,
+    data: FruitData,
     options: {
         responsive: true,
         plugins: {
