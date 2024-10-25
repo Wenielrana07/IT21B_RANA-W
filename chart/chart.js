@@ -8,7 +8,7 @@ const talentCategories = ['Melon', 'Apple', 'Mango', '', 'Strawberry'];
 const talentData = {
     labels: talentCategories,
     datasets: [{
-        label: 'Talent Distribution',
+        label: 'Fruit Distribution',
         data: [25, 15, 30, 20, 10], 
         backgroundColor: [
             'rgba(255, 99, 71, 1)',  
