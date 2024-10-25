@@ -4,7 +4,7 @@ chartCanvas.width = 800;
 chartCanvas.height = 400;
 document.body.appendChild(chartCanvas);
 
-const talentCategories = ['Music', 'Arts', 'Sports', '', 'Writing'];
+const talentCategories = ['Melon', 'Apple', 'Mango', '', 'Strawberry'];
 const talentData = {
     labels: talentCategories,
     datasets: [{
