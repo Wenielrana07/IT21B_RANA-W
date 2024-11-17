@@ -91,5 +91,5 @@ class Chart{
     
 }
 
-const chartCreator = new ChartCreator("data.json");
-  chartCreator.init();
+const chart = new Chart("data.json");
+  chart.init();
