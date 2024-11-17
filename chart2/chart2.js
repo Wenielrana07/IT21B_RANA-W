@@ -1,4 +1,4 @@
-class Chart{
+class ChartCreator{
     constructor(dataUrl) {
         this.dataUrl = dataUrl;
         this.barCtx = document.getElementById("barChart");
@@ -91,5 +91,5 @@ class Chart{
     
 }
 
-const chart = new Chart("data.json");
-  chart.init();
+const ChartCreator = new ChartCreator("data.json");
+  ChartCreator.init();
