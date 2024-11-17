@@ -50,5 +50,35 @@ class Chart{
           },
         });
       }
+
+      createPieChart(data) {
+        new Chart(this.pieCtx, {
+          type: "pie",
+          data: {
+            labels: ["Bani", "Weniel", "Brylle", "Harold", "Clint", "Diether"],
+            datasets: [
+              {
+                data: data.values,
+                backgroundColor: [
+                  "red",
+                  "blue",
+                  "yellow",
+                  "green",
+                  "purple",
+                  "orange",
+                ],
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: "bottom",
+              },
+            },
+          },
+        });
+      }
     
 }
